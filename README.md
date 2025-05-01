@@ -1,8 +1,6 @@
-Sure! Here's a simple and clean `README.md` template for uploading **Linked List problems** to GitHub. This is ideal if you're maintaining a repository of data structures and algorithms solutions.
 
----
 
-### 📄 `README.md` for Linked List Problems
+### 📄 Linked List Problems
 
 ```markdown
 # 🔗 Linked List Problems in C++
