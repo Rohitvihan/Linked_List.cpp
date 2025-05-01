@@ -10,7 +10,6 @@ This repository contains various problems and implementations related to **Linke
 ---
 
 ## 📁 Folder Structure
-
 ```
 LinkedList/
 ├── 01_CreateLinkedList.cpp
