@@ -28,7 +28,8 @@ Node* Convert_arr2LL(vector<int> &arr)
     for(int i=1;i<arr.size();i++)
     {
         Node* temp=new Node(arr[i]);
-        temp=mover->next;
+        mover->next=temp;
+        mover=mover->next;
     }
     return head;
 }
