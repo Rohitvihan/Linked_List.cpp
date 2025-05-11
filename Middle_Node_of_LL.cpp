@@ -36,25 +36,14 @@ Node* Convert_arr2LL(vector<int> &arr)
 }
 Node* Middle_of_LL(Node* head)
 {
-    int count=0;
-    Node* temp=head;
-    while(temp)
-    {
-        count+=1;
-        temp=temp->next;
-    }
-    temp=head;
-    int middle=(count/2)+1;
-    while(temp)
-    {
-        middle-=1;
-        if(middle==0)
-        {
-            break;
-        }
-        temp=temp->next;
-    }
-    return temp;
+   Node* slow=head;
+   Node* fast=head;
+   while(fast!=NULL && fast->next!=NULL)
+   {
+        slow=slow->next;
+        fast=fast->next->next;
+   }
+   return slow;
 }
 int main()
 {
