@@ -42,7 +42,7 @@ Node* reverse_LL(Node* head)
    Node* frontt;
    while(cur)
    {
-       frontt=cur->next;;
+       frontt=cur->next;
        cur->next=prev;
        prev=cur;
        cur=frontt;
