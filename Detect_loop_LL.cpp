@@ -49,9 +49,7 @@ int Detect_loop(Node* head)
    return false;
 }
 
-    Node*cur=head;
-    while(cur)
-    {
+    
         cout<<cur->data<<" ";
         cur=cur->next;
     }
