@@ -48,8 +48,7 @@ int Detect_loop(Node* head)
    }
    return false;
 }
-void printlist(Node* head)
-{
+
     Node*cur=head;
     while(cur)
     {
