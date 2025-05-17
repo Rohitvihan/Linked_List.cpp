@@ -48,12 +48,6 @@ int Detect_loop(Node* head)
    }
    return false;
 }
-
-    
-        cout<<cur->data<<" ";
-        cur=cur->next;
-    }
-}
 int main()
 {
     vector<int> arr={1,23,34,45,56};
