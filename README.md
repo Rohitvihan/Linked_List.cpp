@@ -14,7 +14,7 @@ Welcome to the **Linked List Problems** repository! This collection includes a v
 ❌ Deletion of nodes  
 🔍 Searching and traversal  
 🔁 Reversing the list  
-🌀 Detecting and removing loops (cycles)
+🌀 Detecting and removing loops (cycles) & "more"
 
 🛠️ Tech Stack
 --------------
